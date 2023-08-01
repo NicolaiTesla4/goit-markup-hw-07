@@ -1,0 +1,108 @@
+.footer__font{
+    padding: 100px;
+    margin: auto;
+    flex-shrink: 0;
+    background: #2F303A;
+}
+
+.container__footer{
+    width: 1200px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.web__footer{
+    color: $color-azul
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.city__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ubicacion{
+    color: $color-white;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration: none;
+}
+
+.container__redes{
+    margin-left: 350px;
+    margin-top: -151px;
+}
+
+.tittle__footer{
+    color: $color-white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.plataformas__footer{
+    display: flex;
+    align-items:center;
+    padding-left: 0;
+    gap: 10px;
+}
+
+.list__svg__redes__f{
+    align-items: center;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.icon__redes__f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    fill:$color-white;
+}
+
+.list__svg__redes__f:hover{
+    background-color: $color-azul
+}
+
+.list__svg__redes.f:hover .icon__redes__f{
+    fill:$color-white
+}
+
+.p__sus{
+    color: $color-white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.container__sus{
+    width: 570px;
+    height: 86px;
+    margin-left: 635px;
+    margin-top: -95px;
+}

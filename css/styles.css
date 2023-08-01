@@ -1,4 +1,3 @@
-
 body{
     font-family: "Roboto", sans-serif;
     color: #212121;
@@ -174,7 +173,7 @@ ul{
     right: 0;
     width: 100vw; 
     height: 100vh;    
-    background-color: #111111bd;
+    background-color: #111111;
     display: flex;
     transition: opacity 300ms ease,visibility 300ms ease;
     opacity: 1;
@@ -213,11 +212,11 @@ ul{
 }
 
 .modal__btn__close:hover{
-    border:solid #2196f3 1px;
+    border:solid #2196F3 1px;
 }
 
 .modal__btn__close:focus{
-    border:solid #2196f3 1px;
+    border:solid #2196F3 1px;
 }
 
 .modal__svg__close{
@@ -266,11 +265,11 @@ ul{
 }
 
 .modal__input:hover {
-    border: 1px solid #2196f3; 
+    border: 1px solid #2196F3; 
 }
 
 .modal__input:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid #2196F3;
 }
 
 .modal__icon__svg{
@@ -293,11 +292,11 @@ ul{
 }
 
 .modal__input__description:hover {
-    border: 1px solid #2196f3; 
+    border: 1px solid #2196F3; 
 }
 
 .modal__.modal__input__description:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid #2196F3;
 }
 
 .modal__input:hover + .modal__icon__svg,
@@ -353,9 +352,11 @@ ul{
 
 /* ------------Modal-formulario------------- */
 
-/* ----SOLUCIONES----------- */
 
-/* -----Atencion------------ */
+/* --------------SOLUCIONES---------------- */
+
+
+/* ----------------Atencion---------------- */
 
 
 .h2__texto {
@@ -395,9 +396,9 @@ ul{
 }
 
 
-/* -----Atencion------------ */
+/* -------------------Atencion---------------- */
 
-/* ---A-que-nos-dedicamos-- */
+/* ---------------A-que-nos-dedicamos--------- */
 
 
 .container__dedicamos{
@@ -431,9 +432,9 @@ ul{
 }
 
 
-/* ---A-que-nos-dedicamos-- */
+/* ------------------A-que-nos-dedicamos----------- */
 
-/* -----Nuestro-equipo---- */
+/* --------------------Nuestro-equipo------------- */
 
 
 .section-team{
@@ -497,7 +498,7 @@ ul{
 }
 
 .list__svg__redes:hover{
-    background-color: #2196f3;
+    background-color: #2196F3;
 }
 
 .list__svg__redes:hover .icon-redes{
@@ -514,9 +515,9 @@ ul{
 }
 
 
-/* -----Nuestro-equipo---- */
+/* -------------------Nuestro-equipo---------------- */
 
-/* --Clientes-regulares-- */
+/* -----------------Clientes-regulares-------------- */
 
 
 .regular__clients{
@@ -547,17 +548,17 @@ ul{
 }
 
 .box__svg:hover{
-    border:solid #2196f3 1px;
+    border:solid #2196F3 1px;
 }
 
 .box__svg:hover .svg__redes{
-    fill:#2196f3;
+    fill:#2196F3;
 }
 
 
-/* --Clientes-regulares-- */
+/* --------------Clientes-regulares------------ */
 
-/* ----footer------------- */
+/* -------------------footer------------------ */
 
 
 .footer__font{
@@ -574,7 +575,7 @@ ul{
 }
 
 .web__footer{
-    color: #2196f3;
+    color: #2196F3;
     font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
@@ -644,7 +645,7 @@ ul{
 }
 
 .list__svg__redes__f:hover{
-    background-color: #2196f3;
+    background-color: #2196F3;
 }
 
 .list__svg__redes.f:hover .icon__redes__f{
@@ -670,7 +671,7 @@ ul{
 }
 
 
-/* ----footer------------- */
+/* -----------------footer-------------------- */
 
 /* ---------------PORTAFOLIO---------------------- */
 
@@ -694,7 +695,7 @@ ul{
 
 .div__buttons .link:hover, 
 .div__buttons .link:focus {
-    background-color: #2196f3;
+    background-color: #2196F3;
     color: #ffffff;
     box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.12);
 }
@@ -779,6 +780,10 @@ ul{
     letter-spacing: 0.48px;
 }
 
+
+/* ---------------Newslater---------------------- */
+
+
 .modal__label__footer{
     display: flex;
     flex-direction: column;
@@ -827,7 +832,6 @@ ul{
     margin-left: 980px; 
 }
 
-
 .icon__svg__sus{
     width: 24px;
     height: 24px;
@@ -835,8 +839,6 @@ ul{
     margin-top: -43px;
     margin-left: -75px;
 }
-
-
 
 
 /* ---------------PORTAFOLIO---------------------- */
