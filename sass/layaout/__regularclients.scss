@@ -13,8 +13,13 @@
     border: solid $color-svg 1px;
     justify-content:center;
     align-items: center;
-    cursor: pointer
+    cursor: pointer;
+
+    &:hover{
+        border:solid $color-azul 1px;
+    }
 }
+
 
 .svg__redes{
     width: 106px;
@@ -23,10 +28,6 @@
     left: 247px;
     padding: 7px 4px 0px 7px;
     fill: $color-svg;
-}
-
-.box__svg:hover{
-    border:solid $color-azul 1px;
 }
 
 .box__svg:hover .svg__redes{

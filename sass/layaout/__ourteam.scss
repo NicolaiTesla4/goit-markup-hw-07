@@ -1,18 +1,19 @@
 .section-team{
     flex-shrink: 0;
-    background: $color-white;
+    background: $color-team;
     display: flex;
     display: flex;
     justify-content: space-between;
-    background-color: $color-white;
+    background-color: $color-team;
     margin: auto;
     padding: 50px;
+    
 }
 
 .team{
     display: flex;
     justify-content: space-between;
-    background-color: $color-white;
+    background-color: $color-team;
 }
 
 .cuadricula{
@@ -55,12 +56,14 @@
     fill: $color-svg;
     border-radius: 25px;
     margin-bottom: 25px;
-    cursor: pointer
+    cursor: pointer;
+
+    &:hover{
+        background-color: $color-azul;
+    }
 }
 
-.list__svg__redes:hover{
-    background-color: $color-azul;
-}
+
 
 .list__svg__redes:hover .icon-redes{
     fill:$color-lightgrey

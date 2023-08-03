@@ -173,7 +173,7 @@ ul{
     right: 0;
     width: 100vw; 
     height: 100vh;    
-    background-color: #111111;
+    background-color: #111111bd;
     display: flex;
     transition: opacity 300ms ease,visibility 300ms ease;
     opacity: 1;

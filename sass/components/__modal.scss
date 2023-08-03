@@ -19,7 +19,7 @@
     right: 0;
     width: 100vw; 
     height: 100vh;    
-    background-color: $color-black;
+    background-color: #111111bd;
     display: flex;
     transition: opacity 300ms ease,visibility 300ms ease;
     opacity: 1;
@@ -32,6 +32,7 @@
     pointer-events: none;
 }
 
+
 .modal{
     width: 528px;
     height: 581px;    
@@ -41,29 +42,30 @@
     border-radius: 6px;
     position: relative;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    &__btn__close{
+        position: absolute;
+        display: flex;
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        margin-top: -32px;
+        border-radius: 50px;
+        margin-left: 448px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        background: $color-white;
+        cursor: pointer;
+
+        &:hover{
+            border:solid $color-azul 1px;
+
+            &:focus{
+                border:solid $color-azul 1px;
+            }
+        }
+    }
 }
 
-.modal__btn__close{
-    position: absolute;
-    display: flex;
-    width: 30px;
-    height: 30px;
-    padding: 0px;
-    margin-top: -32px;
-    border-radius: 50px;
-    margin-left: 448px;
-    border: 1px solid rgba(0, 0, 0, 0.10);
-    background: $color-white;
-    cursor: pointer;
-}
-
-.modal__btn__close:hover{
-    border:solid $color-azul 1px;
-}
-
-.modal__btn__close:focus{
-    border:solid $color-azul 1px;
-}
 
 .modal__svg__close{
     position: absolute;
@@ -72,11 +74,6 @@
     top: -1.5px;
     left: -1.5px;
 }
-
-.modal__svg__close:hover{
-    fill: $color-azul;
-    cursor: pointer;
-} 
 
 .modal__title__form{
     display: flex;
@@ -107,16 +104,17 @@
     padding-left: 42px;
     outline: none;
     border-radius: 4px;
-    border-color: $color-black
+    border-color: $color-black;
+
+    &:hover {
+        border: 1px solid $color-azul; 
+
+        &:focus {
+            border: 1px solid $color-azul;
+        }
+    }
 }
 
-.modal__input:hover {
-    border: 1px solid $color-azul; 
-}
-
-.modal__input:focus {
-    border: 1px solid $color-azul;
-}
 
 .modal__icon__svg{
     position: absolute;
@@ -134,16 +132,17 @@
     border-radius: 4px;
     white-space: pre-wrap;
     word-wrap: break-word; 
-    border-color: $color-black
+    border-color: $color-black;
+
+    &:hover {
+        border: 1px solid $color-azul; 
+
+        &:focus {
+            border: 1px solid $color-azul;
+        }
+    }
 }
 
-.modal__input__description:hover {
-    border: 1px solid $color-azul; 
-}
-
-.modal__.modal__input__description:focus {
-    border: 1px solid $color-azul;
-}
 
 .modal__input:hover + .modal__icon__svg,
 .modal__input:focus + .modal__icon__svg{

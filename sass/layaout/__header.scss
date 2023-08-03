@@ -44,27 +44,30 @@
     margin-left: 80px;
 }
 
+
 .link1{
     color: #2f303a;
     padding-right: 15px;
     text-decoration: none;
+
+    &:hover{
+        color: $color-azul;
+        cursor: pointer
+    }
 }
 
-.link1:hover{
-    color: $color-azul;
-    cursor: pointer
-}
 
 .link2{
     color: $color-lightgrey;
     padding-right: 15px;
     text-decoration: none;
+
+    &:hover{
+        color: $color-azul;
+        cursor: pointer
+    }
 }
 
-.link2:hover{
-    color: $color-azul;
-    cursor: pointer
-}
 
 .link2:hover .cell__svg{
     fill: $color-azul;
