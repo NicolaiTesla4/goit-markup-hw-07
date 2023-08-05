@@ -1,4 +1,4 @@
-.section-team{
+.section__team{
     flex-shrink: 0;
     background: $color-team;
     display: flex;
@@ -7,7 +7,6 @@
     background-color: $color-team;
     margin: auto;
     padding: 50px;
-    
 }
 
 .team{

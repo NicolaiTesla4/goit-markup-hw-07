@@ -42,17 +42,19 @@
     background-color: $color-azul;
     transform: translatey(100%);
     transition: transform 250ms ease-in-out;
+
+    & p {
+        color: $color-white;
+        padding: 10px;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.54px;
+        margin: 70px 15px 0;
+    }
 }
 
-.overlay p {
-    color: $color-white;
-    padding: 10px;
-    margin: 0;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 0.54px;
-    margin: 70px 15px 0;
-}
+
 
 .h3__titulos {
     width: 322px;

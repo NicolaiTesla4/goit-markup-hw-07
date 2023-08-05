@@ -93,9 +93,6 @@
     margin-bottom: 4px;
 }
 
-.modal__div{
-    position: relative;
-}
 
 .modal__input{
     display: block;
@@ -168,6 +165,10 @@
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
     padding: 10px;
+}
+
+.modal__div{
+    position: relative;
 }
 
 .modal__div__button{
