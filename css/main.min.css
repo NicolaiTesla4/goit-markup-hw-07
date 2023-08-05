@@ -17,21 +17,6 @@ ul {
   margin: auto;
 }
 
-.data__modal__open {
-  color: #ffffff;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.96px;
-  padding: 10px 32px;
-  border: none;
-  border-radius: 4px;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-}
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -61,7 +46,22 @@ ul {
   position: relative;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-.modal__btn__close {
+.modal__open {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.modal__btn-close {
   position: absolute;
   display: flex;
   width: 30px;
@@ -74,14 +74,14 @@ ul {
   background: #ffffff;
   cursor: pointer;
 }
-.modal__btn__close:hover {
+.modal__btn-close:hover {
   border: solid #2196F3 1px;
 }
-.modal__btn__close:hover:focus {
+.modal__btn-close:hover:focus {
   border: solid #2196F3 1px;
 }
 
-.modal__svg__close {
+.modal__svg-close {
   position: absolute;
   width: 25px;
   height: 25px;
@@ -89,12 +89,13 @@ ul {
   left: -1.5px;
 }
 
-.modal__title__form {
+.modal__title-form {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin: 0px;
   margin-bottom: 5px;
-  font-size: 20px;
+  font-size: 19px;
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.6px;
@@ -123,7 +124,7 @@ ul {
   border: 1px solid #2196F3;
 }
 
-.modal__icon__svg {
+.modal__icon-svg {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -131,7 +132,7 @@ ul {
   left: 12px;
 }
 
-.modal__input__description {
+.modal__input-description {
   width: 448px;
   height: 120px;
   padding: 12px 16px;
@@ -141,15 +142,15 @@ ul {
   word-wrap: break-word;
   border-color: #212121;
 }
-.modal__input__description:hover {
+.modal__input-description:hover {
   border: 1px solid #2196F3;
 }
-.modal__input__description:hover:focus {
+.modal__input-description:hover:focus {
   border: 1px solid #2196F3;
 }
 
-.modal__input:hover + .modal__icon__svg,
-.modal__input:focus + .modal__icon__svg {
+.modal__input:hover + .modal__icon-svg,
+.modal__input:focus + .modal__icon-svg {
   fill: #2196F3;
   cursor: pointer;
 }
@@ -178,7 +179,7 @@ ul {
   position: relative;
 }
 
-.modal__div__button {
+.modal__div-button {
   display: flex;
   justify-content: center;
 }
@@ -436,7 +437,7 @@ ul {
   gap: 25px;
 }
 
-.list__svg__redes {
+.list__svg-redes {
   align-items: center;
   display: flex;
   width: 44px;
@@ -447,11 +448,11 @@ ul {
   margin-bottom: 25px;
   cursor: pointer;
 }
-.list__svg__redes:hover {
+.list__svg-redes:hover {
   background-color: #2196F3;
 }
 
-.list__svg__redes:hover .icon-redes {
+.list__svg-redes:hover:hover .icon-redes {
   fill: #757575;
 }
 
@@ -561,7 +562,7 @@ ul {
   gap: 10px;
 }
 
-.footer__svg__redes {
+.footer__svg-redes {
   align-items: center;
   display: flex;
   width: 44px;
@@ -571,7 +572,7 @@ ul {
   border-radius: 25px;
   cursor: pointer;
 }
-.footer__svg__redes:hover {
+.footer__svg-redes:hover {
   background-color: #2196F3;
 }
 
@@ -584,7 +585,7 @@ ul {
   fill: #ffffff;
 }
 
-.list__svg__redes.f:hover .footer__icon {
+.list__svg-redes.f:hover .footer__icon {
   fill: #ffffff;
 }
 
@@ -606,14 +607,14 @@ ul {
   margin-top: -95px;
 }
 
-.modal__label__footer {
+.modal__label-footer {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   margin-bottom: 4px;
 }
 
-.modal__input__footer {
+.modal__input-footer {
   color: #ECECEC;
   display: block;
   padding-left: 10px;
@@ -628,12 +629,12 @@ ul {
   cursor: pointer;
 }
 
-.div__sus__footer {
+.div__sus-footer {
   display: flex;
   justify-content: center;
 }
 
-.button__sus__footer {
+.button__sus-footer {
   display: flex;
   align-items: center;
   padding-left: 40px;
@@ -654,7 +655,7 @@ ul {
   margin-left: 335px;
 }
 
-.icon__svg__sus {
+.icon__svg-sus {
   width: 24px;
   height: 24px;
   fill: #FFF;

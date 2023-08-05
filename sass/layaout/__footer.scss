@@ -61,7 +61,7 @@
     gap: 10px;
 }
 
-.footer__svg__redes{
+.footer__svg-redes{
     align-items: center;
     display: flex;
     width: 44px;
@@ -86,7 +86,7 @@
     fill:$color-white;
 }
 
-.list__svg__redes.f:hover .footer__icon{
+.list__svg-redes.f:hover .footer__icon{
     fill:$color-white
 }
 
@@ -108,14 +108,14 @@
     margin-top: -95px;
 }
 
-.modal__label__footer{
+.modal__label-footer{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 4px;
 }
 
-.modal__input__footer{
+.modal__input-footer{
     color: #ECECEC;
     display: block;
     padding-left: 10px;
@@ -130,12 +130,12 @@
     cursor: pointer;
 }
 
-.div__sus__footer{
+.div__sus-footer{
     display: flex;
     justify-content: center;
 }
 
-.button__sus__footer{
+.button__sus-footer{
     display: flex;
     align-items: center;
     padding-left: 40px;
@@ -156,7 +156,7 @@
     margin-left: 335px; 
 }
 
-.icon__svg__sus{
+.icon__svg-sus{
     width: 24px;
     height: 24px;
     fill: #FFF;
